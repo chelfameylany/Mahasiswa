@@ -1,0 +1,36 @@
+════════════════════════════════════════════════════════════════════════════════
+                          ADMIN PHP FILES
+════════════════════════════════════════════════════════════════════════════════
+
+📁 ADMIN FOLDER
+├── admin/
+│   └── dashboard_admin.php                  - Dashboard utama untuk admin
+
+📁 AUTH FOLDER (used by admin)
+├── auth/
+│   ├── login_admin.php                      - Form login admin
+│   ├── proses_login_admin.php               - Proses validasi login admin
+│   └── logout_admin.php                     - Proses logout admin
+
+📁 ROOT FOLDER (Admin Management Functions)
+├── auth_admin.php                           - Autentikasi admin
+├── buat_admin.php                           - Membuat/tambah admin baru
+├── ganti_password.php                       - Fungsi ganti password (admin)
+├── kelola_maba.php                          - Kelola data calon maha siswa
+├── edit_soal.php                            - Edit soal tes
+├── tambah_soal_teknik.php                   - Tambah soal untuk teknik
+├── tambah_soal_umum.php                     - Tambah soal untuk umum
+├── proses_soal.php                          - Proses penyimpanan soal
+├── export_kelola_maba.php                   - Export data kelola maba
+├── export_konfirmasi_maba.php               - Export data konfirmasi maba
+├── export_hasil_tes.php                     - Export hasil tes
+├── ajax_hapus.php                           - AJAX untuk hapus data
+├── ajax_update_status.php                   - AJAX untuk update status
+├── proses_upload_gedung.php                 - Proses upload bukti gedung
+├── hasil_tes.php                            - Tampilan hasil tes (admin)
+└── koneksi.php                              - Database connection
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          TOTAL FILE: 21 PHP Files
+════════════════════════════════════════════════════════════════════════════════

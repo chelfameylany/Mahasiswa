@@ -1,0 +1,46 @@
+════════════════════════════════════════════════════════════════════════════════
+                          USER / MABA PHP FILES
+════════════════════════════════════════════════════════════════════════════════
+
+📁 AUTH FOLDER (used by user/maba)
+├── auth/
+│   ├── login_maba.php                       - Form login untuk calon maha siswa
+│   ├── proses_login_admin.php               - Proses validasi login maba
+│   ├── logout_maba.php                      - Proses logout maba
+│   └── lupa_password.php                    - Halaman lupa password
+
+📁 ROOT FOLDER (User/Maba Features)
+├── dashboard_maba.php                       - Dashboard utama maba
+├── dashboard_utama.php                      - Dashboard utama aplikasi
+├── calon_maba.php                           - Data calon maba
+├── detail_maba.php                          - Detail data maba
+├── get_detail_maba.php                      - Get detail maba via AJAX
+├── pendaftaran-user.php                     - Form pendaftaran user baru
+├── proses_maba.php                          - Proses pendaftaran maba
+├── pilih_prodi.php                          - Pilih program studi
+├── daftar_success.php                       - Halaman sukses pendaftaran
+├── daftarulang_maba.php                     - Form daftar ulang maba
+├── form_daftar_ulang.php                    - Form untuk daftar ulang
+├── lengkapi_data_maba.php                   - Halaman lengkapi data maba
+├── konfirmasi_pendaftaran.php               - Konfirmasi pendaftaran
+├── konfirmasi.php                           - Halaman konfirmasi
+├── verifikasi_daftar_ulang.php              - Verifikasi daftar ulang
+├── pembayaran.php                           - Halaman pembayaran
+├── panduan_pembayarantest.php               - Panduan pembayaran tes
+├── panduan_tes.php                          - Panduan tes online
+├── tes_online.php                           - Test online
+├── soal_tes.php                             - Tampilan soal tes
+├── submit_tes.php                           - Proses submit jawaban tes
+├── proses_hasil.php                         - Proses hasil tes
+├── hasil_tes_maba.php                       - Halaman hasil tes maba
+├── ktm_maba.php                             - Kartu tanda mahasiswa
+├── check_status.php                         - Check status pendaftaran
+├── ganti_password.php                       - Fungsi ganti password (user)
+├── sidebar.php                              - Sidebar navigation (shared)
+├── hash.php                                 - Password hashing function
+└── koneksi.php                              - Database connection
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          TOTAL FILE: 34 PHP Files
+════════════════════════════════════════════════════════════════════════════════
